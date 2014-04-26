@@ -26,11 +26,11 @@
 
 
 #ifdef G
-#define CLOUDIP 		"192.168.1.2"
+#define CLOUDIP 		"192.168.2.2"
 #define CLOUDSERVERPORT "5005"
 #define NAME "G" //Name of the Fog device
 #define DATACONTENT "FOG-G" // Mask showing the data content
-#define IP "192.168.1.1"	//IP so other FOGs can connect to it
+#define IP "192.168.2.1"	//IP so other FOGs can connect to it
 #define FOGLISTENINGPORT 6000 //FOGSERVERPORT ad FOGLISTENINGPORT have to be the same
 #define FOGSERVERPORT "6000" //For node connections
 #define FOGSERVERPORT2 "7000" //For fog connections
@@ -38,11 +38,11 @@
 #endif
 
 #ifdef N
-#define CLOUDIP 		"192.168.2.2"
+#define CLOUDIP 		"192.168.1.2"
 #define CLOUDSERVERPORT "5005"
 #define NAME "N" //Name of the Fog device
 #define DATACONTENT "FOG-N" // Mask showing the data content
-#define IP "192.168.2.1"	//IP so other FOGs can connect to it
+#define IP "192.168.1.1"	//IP so other FOGs can connect to it
 #define FOGLISTENINGPORT 6000 //FOGSERVERPORT ad FOGLISTENINGPORT have to be the same
 #define FOGSERVERPORT "6000"
 #define FOGSERVERPORT2 "7000"

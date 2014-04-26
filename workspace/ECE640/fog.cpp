@@ -11,10 +11,10 @@
 
 #define FOG
 
-#define t
+#define CLOUD
 
-#ifdef t
-#define CLOUDIP 		"localhost"
+#ifdef CLOUD
+#define CLOUDIP 		"192.68.1.2"
 #define CLOUDSERVERPORT "5005"
 #define NAME "T" //Name of the Fog device
 #define DATACONTENT "FOG-T" // Mask showing the data content

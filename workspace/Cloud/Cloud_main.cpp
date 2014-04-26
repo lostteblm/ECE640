@@ -6,7 +6,8 @@
  */
 
 
-#include "/users/heyul/workspace/ECE640/common.h"
+//#include "/users/heyul/workspace/ECE640/common.h"
+#include "common.h"
 
 #define CLOUDSERVERPORT "5005"
 
